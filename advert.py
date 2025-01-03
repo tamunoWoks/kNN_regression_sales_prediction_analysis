@@ -8,7 +8,9 @@ data_filename = 'Advertising.csv'
 
 # Read the file "Advertising.csv" file using the pandas library
 df = pd.read_csv(data_filename)
-df.head()
+
+# Get a quick look at the data
+df.describe()
 
 # Create a new dataframe by selecting the first 7 rows of the current dataframe
 df_new = df.head(7)
