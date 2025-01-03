@@ -17,7 +17,7 @@ df_new = df.head(7)
 print(df_new)
 
 # Use a scatter plot for plotting a graph of TV vs Sales
-plt.scatter(data['TV'], data['Sales'])
+plt.scatter(df_new['TV'], df_new['Sales'])
 
 # Add axis labels for clarity (x : TV budget, y : Sales)
 plt.xlabel('TV budget')
