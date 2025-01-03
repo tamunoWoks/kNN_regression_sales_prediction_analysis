@@ -23,3 +23,4 @@ plt.ylabel('Sales')
 
 # Add plot title 
 plt.title('TV Budget vs Sales')
+plt.show()
