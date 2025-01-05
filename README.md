@@ -62,9 +62,13 @@ The dataset used in this project is from the Advertising.csv file. It contains i
 ## Installation and Prerequisites
 ### 1. Environment Setup:
 
-    - Python 3.x installed on your machine.
-    - Required libraries: numpy, pandas, matplotlib, sklearn.
+ - Python 3.x installed on your machine.
+ - Required libraries: numpy, pandas, matplotlib, sklearn.
 
 ### 2. Data File:
 
 - The Advertising.csv file is located in the same directory as the scripts.
+
+## Conclusion
+
+This project provides a clear understanding of how k-Nearest Neighbors regression can be applied to predict sales based on TV advertising budgets. By experimenting with different values of k, we explored the impact of model complexity and accuracy. The visualizations and analysis contribute to a better grasp of the relationship between TV advertising and sales, helping to make informed decisions in business scenarios.
