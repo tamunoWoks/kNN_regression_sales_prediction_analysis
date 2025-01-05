@@ -67,7 +67,7 @@ The dataset used in this project is from the Advertising.csv file. It contains i
 
 ### 2. Data File:
 
-- The Advertising.csv file is located in the same directory as the scripts.
+- The [Advertising.csv](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertising.csv) file is located in the same directory as the scripts.
 
 ## Conclusion
 
