@@ -1,3 +1,5 @@
+#This script reads data from the "Advertising.csv" file and provides a quick overview of the dataset.
+
 # Import necessary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
