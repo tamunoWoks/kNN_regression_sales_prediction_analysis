@@ -1,3 +1,5 @@
+This script performs a k-Nearest Neighbors (kNN) regression analysis to explore the relationship between TV advertising budgets and sales.
+
 # Import required libraries
 import numpy as np
 import pandas as pd
