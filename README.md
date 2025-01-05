@@ -58,3 +58,13 @@ The dataset used in this project is from the Advertising.csv file. It contains i
 
     - A clear visual representation of the TV advertising budget vs sales data.
     - Helps to understand the general trend of how TV budgets impact sales.
+
+## Installation and Prerequisites
+### 1. Environment Setup:
+
+    - Python 3.x installed on your machine.
+    - Required libraries: numpy, pandas, matplotlib, sklearn.
+
+### 2. Data File:
+
+- The Advertising.csv file is located in the same directory as the scripts.
