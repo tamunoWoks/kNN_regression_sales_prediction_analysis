@@ -4,7 +4,7 @@
 This project aims to explore the relationship between TV advertising budgets and sales using the k-Nearest Neighbors (kNN) regression technique. By applying kNN, we can understand how varying values of TV advertising budgets impact sales, visualize the model predictions, and analyze the accuracy of the kNN approach in capturing this relationship.
 
 ## Purpose
-The primary objective of this project is to apply kNN regression to the Advertising.csv dataset to predict sales based on TV advertising budgets. We aim to demonstrate the effect of different values of k (the number of nearest neighbors) on the model’s predictions and performance.
+The primary objective of this project is to apply kNN regression to the Advertising.csv dataset to predict sales based on TV advertising budgets. We aim to demonstrate the effect of different values of k (the number of nearest neighbors) on the model’s predictions and performance, and also find the best value for k in this model.
 
 ## Dataset
 The [dataset](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertising.csv) used in this project is from the Advertising.csv file. It contains information on TV advertising budgets and corresponding sales data collected from a set of observations.
@@ -16,8 +16,8 @@ The [dataset](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertisin
 - Sales: Sales (in thousands of dollars)
 
 ## Scripts and Analysis
-### 1. Script 1: kNN Regression with TV as Predictor
-- Objective: This script applies kNN regression to predict sales based on TV advertising budgets. It demonstrates how different values of k (from 1 to 70) impact the model’s predictions and visualizes these results.
+### 1. Script 1: kNN Regression for k >= 1, with TV as Predictor
+- Objective: This [script](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/kNN_regression_analysis.ipynb) applies kNN regression to predict sales based on TV advertising budgets. It demonstrates how different values of k (from 1 to 70) impact the model’s predictions and visualizes these results.
 
 - Key Components:
 
