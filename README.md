@@ -9,8 +9,8 @@ The primary objective of this project is to apply kNN regression to the Advertis
 ## Dataset
 The [dataset](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertising.csv) used in this project is from the Advertising.csv file. It contains information on TV advertising budgets and corresponding sales data collected from a set of observations.
 Here is a brief look of the data.
-- [Data Head (first 10 rows)](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_head_10.png)
-- [Data Description](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_description.png)
+- ![Data Head (first 10 rows)](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_head_10.png)
+- ![Data Description](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_description.png)
 
 ## Columns in the dataset:
 - TV: TV advertising budget (in thousands of dollars)
@@ -70,6 +70,7 @@ Here is a brief look of the data.
 
     - A clear visual representation of the TV advertising budget vs sales data.
     - Helps to understand the general trend of how TV budgets impact sales.
+    - ![Visualization of scatter plot for first ten values of TV vs Sales](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/scatter%20plot%20tv%20vs%20sales.png)
 
 ## Installation and Prerequisites
 ### 1. Environment Setup:
