@@ -7,8 +7,9 @@ This project aims to explore the relationship between TV advertising budgets and
 The primary objective of this project is to apply kNN regression to the Advertising.csv dataset to predict sales based on TV advertising budgets. We aim to demonstrate the effect of different values of k (the number of nearest neighbors) on the model’s predictions and performance, and also find the best value for k in this model.
 
 ## Dataset
-The [dataset](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertising.csv) used in this project is from the Advertising.csv file. It contains information on TV advertising budgets and corresponding sales data collected from a set of observations.
-Here is a brief look of the data.
+The dataset used in this project is contained in the [Advertising.csv](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertising.csv) file. It contains information on TV advertising budgets and corresponding sales data collected from a set of observations.
+
+Here is a brief look of the data:
 - Head of  data showing first ten rows.  
 ![Data Head (first 10 rows)](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_head_10.png)
 - A brief statistical description of the data.  
