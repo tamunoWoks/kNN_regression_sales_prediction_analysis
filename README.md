@@ -33,7 +33,7 @@ Here is a brief look of the data.
 
     - The script provides insights into how increasing or decreasing k influences the accuracy of predictions.
     - A visual comparison of the predicted values with actual sales data is generated, helping to identify the optimal k.
-    - [Visualisation for kNN Regression where k = 1, 10 and 70, with TV as Predictor](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/kNN_regression_analysis.ipynb)
+    - ![Visualization for kNN Regression where k = 1, 10 and 70, with TV as Predictor](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/k_for_several_values.png)
   
 ### 2. Script 2: Find the best value of k
 - Objective: This [script](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/find_best_k_in_kNN_regression.ipynb) implements a function to find the nearest neighbor for each given value of TV advertising budget and predicts sales accordingly.
@@ -54,6 +54,8 @@ Here is a brief look of the data.
     - The nearest neighbor approach provides a basic understanding of the relationship between TV budgets and sales.
     - The best k value is  9 with a MSE of  13.046766975308643
     - The R2 score for your model is 0.5492457002030715
+    - ![Visualization of MSE value test for different values of k](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/test_MSE_for_different_values_of_k.png)
+  
 
 ## 3. Script 3: Simple Scatter Plot of TV vs Sales
 - Objective: This [script](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/tv_vs_sales_scatter_plot.ipynb) focuses on visualizing the relationship between TV advertising budgets and sales using a simple scatter plot.
