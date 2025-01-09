@@ -9,8 +9,8 @@ The primary objective of this project is to apply kNN regression to the Advertis
 ## Dataset
 The [dataset](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertising.csv) used in this project is from the Advertising.csv file. It contains information on TV advertising budgets and corresponding sales data collected from a set of observations.
 Here is a brief look of the data.
-- [Data Description](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_description.png)
 - [Data Head (first 10 rows)](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_head_10.png)
+- [Data Description](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_description.png)
 
 ## Columns in the dataset:
 - TV: TV advertising budget (in thousands of dollars)
@@ -33,6 +33,7 @@ Here is a brief look of the data.
 
     - The script provides insights into how increasing or decreasing k influences the accuracy of predictions.
     - A visual comparison of the predicted values with actual sales data is generated, helping to identify the optimal k.
+    - [Visualisation for kNN Regression where k = 1, 10 and 70, with TV as Predictor](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/kNN_regression_analysis.ipynb)
   
 ### 2. Script 2: Find the best value of k
 - Objective: This [script](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/find_best_k_in_kNN_regression.ipynb) implements a function to find the nearest neighbor for each given value of TV advertising budget and predicts sales accordingly.
