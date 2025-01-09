@@ -7,7 +7,7 @@ This project aims to explore the relationship between TV advertising budgets and
 The primary objective of this project is to apply kNN regression to the Advertising.csv dataset to predict sales based on TV advertising budgets. We aim to demonstrate the effect of different values of k (the number of nearest neighbors) on the model’s predictions and performance.
 
 ## Dataset
-The dataset used in this project is from the Advertising.csv file. It contains information on TV advertising budgets and corresponding sales data collected from a set of observations.
+The [dataset](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertising.csv) used in this project is from the Advertising.csv file. It contains information on TV advertising budgets and corresponding sales data collected from a set of observations.
 
 ## Columns in the dataset:
 - TV: TV advertising budget (in thousands of dollars)
@@ -32,7 +32,7 @@ The dataset used in this project is from the Advertising.csv file. It contains i
     - A visual comparison of the predicted values with actual sales data is generated, helping to identify the optimal k.
   
 ### 2. Script 2: Find Nearest Neighbor Function
-- Objective: This script implements a function to find the nearest neighbor for each given value of TV advertising budget and predicts sales accordingly.
+- Objective: This [script](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/find_best_k_in_kNN_regression.ipynb) implements a function to find the nearest neighbor for each given value of TV advertising budget and predicts sales accordingly.
 
 - Key Components:
 
@@ -46,7 +46,7 @@ The dataset used in this project is from the Advertising.csv file. It contains i
     - A comparison between actual and predicted values is plotted, highlighting how closely the predictions align with the data.
 
 ## 3. Script 3: Simple Scatter Plot of TV vs Sales
-- Objective: This script focuses on visualizing the relationship between TV advertising budgets and sales using a simple scatter plot.
+- Objective: This [script](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/tv_vs_sales_scatter_plot.ipynb) focuses on visualizing the relationship between TV advertising budgets and sales using a simple scatter plot.
 
 - Key Components:
 
