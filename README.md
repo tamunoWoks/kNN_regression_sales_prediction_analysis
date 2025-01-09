@@ -31,19 +31,25 @@ The [dataset](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertisin
     - The script provides insights into how increasing or decreasing k influences the accuracy of predictions.
     - A visual comparison of the predicted values with actual sales data is generated, helping to identify the optimal k.
   
-### 2. Script 2: Find Nearest Neighbor Function
+### 2. Script 2: Find the best value of k
 - Objective: This [script](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/find_best_k_in_kNN_regression.ipynb) implements a function to find the nearest neighbor for each given value of TV advertising budget and predicts sales accordingly.
 
 - Key Components:
 
-    - Defining a find_nearest function to locate the nearest neighbor in the training set.
-    - Using this function to predict sales based on the nearest TV advertising budget.
-    - Visualizing the results with a scatter plot of the original and predicted sales data.
-
+    - Import necessary libraries.
+    - Reading the data from Advertising.csv.
+    - Splitting the data into training and testing sets.
+    - Choosing k range from 1 to 70
+    - Plotting the regression results, showing how k affects model performance
+    - Plot a graph which depicts the relation between the k values and MSE
+    - Find the lowest MSE among all the kNN models, find the k value associated with the lowest MSE.
+    - compute the R2 score
+    
 - Results:
 
     - The nearest neighbor approach provides a basic understanding of the relationship between TV budgets and sales.
-    - A comparison between actual and predicted values is plotted, highlighting how closely the predictions align with the data.
+    - The best k value is  9 with a MSE of  13.046766975308643
+    - The R2 score for your model is 0.5492457002030715
 
 ## 3. Script 3: Simple Scatter Plot of TV vs Sales
 - Objective: This [script](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/tv_vs_sales_scatter_plot.ipynb) focuses on visualizing the relationship between TV advertising budgets and sales using a simple scatter plot.
@@ -71,4 +77,4 @@ The [dataset](https://github.com/tamunoWoks/advert_analysis/blob/main/Advertisin
 
 ## Conclusion
 
-This project provides a clear understanding of how k-Nearest Neighbors regression can be applied to predict sales based on TV advertising budgets. By experimenting with different values of k, we explored the impact of model complexity and accuracy. The visualizations and analysis contribute to a better grasp of the relationship between TV advertising and sales, helping to make informed decisions in business scenarios.
+This project provides a clear understanding of how k-Nearest Neighbors regression can be applied to predict sales based on TV advertising budgets. By experimenting with different values of k, we explored the impact of model complexity and accuracy, thereby predicting the best value of k. The visualizations and analysis contribute to a better grasp of the relationship between TV advertising and sales, helping to make informed decisions in business scenarios.
