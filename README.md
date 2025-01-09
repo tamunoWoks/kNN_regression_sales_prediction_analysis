@@ -11,9 +11,9 @@ The dataset used in this project is contained in the [Advertising.csv](https://g
 
 Here is a brief look of the data:
 - Head of  data showing first ten rows.  
-![Data Head (first 10 rows)](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_head_10.png)
+![Data Head (first 10 rows)](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/images/data_head_10.png)
 - A brief statistical description of the data.  
-![Data Description](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/data_description.png)
+![Data Description](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/images/data_description.png)
 
 ## Columns in the dataset:
 - TV: TV advertising budget (in thousands of dollars)
@@ -36,7 +36,7 @@ Here is a brief look of the data:
 
     - The script provides insights into how increasing or decreasing k influences the accuracy of predictions.
     - A visual comparison of the predicted values with actual sales data is generated, helping to identify the optimal k.
-    - ![Visualization for kNN Regression where k = 1, 10 and 70, with TV as Predictor](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/k_for_several_values.png)
+    - ![Visualization for kNN Regression where k = 1, 10 and 70, with TV as Predictor](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/images/k_for_several_values.png)
   
 ### 2. Script 2: Find the best value of k
 - Objective: This [script](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/find_best_k_in_kNN_regression.ipynb) implements a function to find the nearest neighbor for each given value of TV advertising budget and predicts sales accordingly.
@@ -57,7 +57,7 @@ Here is a brief look of the data:
     - The nearest neighbor approach provides a basic understanding of the relationship between TV budgets and sales.
     - The best k value is  9 with a MSE of  13.046766975308643
     - The R2 score for your model is 0.5492457002030715
-    - ![Visualization of MSE value test for different values of k](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/test_MSE_for_different_values_of_k.png)
+    - ![Visualization of MSE value test for different values of k](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/images/test_MSE_for_different_values_of_k.png)
   
 
 ## 3. Script 3: Simple Scatter Plot of TV vs Sales
@@ -73,7 +73,7 @@ Here is a brief look of the data:
 
     - A clear visual representation of the TV advertising budget vs sales data.
     - Helps to understand the general trend of how TV budgets impact sales.
-    - ![Visualization of scatter plot for first ten values of TV vs Sales](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/scatter%20plot%20tv%20vs%20sales.png)
+    - ![Visualization of scatter plot for first ten values of TV vs Sales](https://github.com/tamunoWoks/kNN_regression_sales_prediction_analysis/blob/main/images/scatter%20plot%20tv%20vs%20sales.png)
 
 ## Installation and Prerequisites
 ### 1. Environment Setup:
